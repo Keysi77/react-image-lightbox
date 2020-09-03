@@ -48,7 +48,12 @@
   ],
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react-modal": "^3.11.1"
+    "react-modal": "^3.11.1",
+    "rollup": "^1.27.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
   },
   "peerDependencies": {
     "react": "^16.x",
@@ -82,11 +87,6 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "rimraf": "^3.0.0",
-    "rollup": "^1.27.0",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-postcss": "^2.0.3",
     "standard-version": "^7.0.0"
   },
   "keywords": [
