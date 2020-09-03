@@ -17,7 +17,7 @@ export function translate(str, replaceStrings = null) {
 }
 
 export function getWindowWidth() {
-  return typeof global.window !== 'undefined' ? global.window.innerWidth : 0;
+  return typeof global.window !== 'undefined' ? global.window.innerWidth * .75 : 0;
 }
 
 export function getWindowHeight() {
